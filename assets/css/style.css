@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
+/*              Sass Template           */
+/*  global classes  */
+button,
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* typography classes */
+.font-baloo {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+.font-size-24 {
+  font-size: 24px;
+}
+.font-size-30 {
+  font-size: 30px;
+}
+
+/* Color Template  */
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-second {
+  color: #00a5c4;
+}
+
+.color-second-bg {
+  background: #00a5c4;
+}
+
+.color-yellow {
+  color: #ffd289;
+}
+
+.color-yellow-bg {
+  background: #ffd289;
+}
+
+/*  top sale template   */
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span,
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #003859;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+
+/*   Special Price Section Template */
+#special-price .grid .grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
+/* Payment */
+.payment-box {
+  display: flex;
+  gap: 0 2rem;
+  margin: 2rem 0;
+}
+.payment-form,
+.payment-info {
+  width: calc(50% - 1.5rem);
+}
+.payment-form__heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.6rem;
+  margin-bottom: 2rem;
+  color: #003859;
+  font-weight: bold;
+}
+.payment-form-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+/* Login & Reg */
+.account {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+}
+#label {
+  display: block;
+}
+.section-top__heading {
+  margin: 1.5rem 0;
+}
+.wrapper-login {
+  border-radius: 1px;
+  padding: 50px 40px 20px 40px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #737373;
+  border: 1px solid rgb(219, 219, 219);
+  text-align: center;
+  background: white;
+  width: 100%;
+  max-width: 500px;
+  margin: 4rem auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+  border-radius: 6px;
+}
+.error {
+  text-align: left;
+  color: red;
+  padding: 6px 0;
+}
+#table {
+  border: 1px solid #ccc;
+}
+#table th,
+td {
+  text-align: center;
+}
+#top-sale .owl-carousel .item .product img {
+  height: 222px !important;
+  object-fit: contain;
+}
+textarea.ckeditor {
+  width: 100%;
+}
+.notify {
+  color: #00a5c4;
+}
+/* Comments */
+.comment-section {
+  display: block;
+}
+.comment-section h2 {
+  margin-bottom: 2rem;
+}
+.list-comment {
+  display: flex;
+  flex-direction: column;
+}
+.item-comment {
+  width: 100%;
+  background-color: #fafaff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+  padding: 1rem;
+  border-radius: 4px;
+  display: flex;
+  gap: 0 1.5rem;
+}
+.item-comment:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+.item-img {
+  width: 50px;
+  height: 50px;
+}
+.item-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 2rem;
+}
+.item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.item-info {
+  display: flex;
+  align-items: center;
+  gap: 0 6px;
+}
+.notify {
+  color: #00a5c4 !important;
+}
